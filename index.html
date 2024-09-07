@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <title>Hades</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" type="imagex/png" href="./images/icon.png">
+  </head>
+  <body>
+      <div class="container-loading">
+        <div class="loading-elements">
+          <div class="logo-container"><img class="logo-image" src="./images/hades_logo2.webp" alt="logoHades"></div>
+          <div class="span-container"><span>Clique em qualquer lugar</span></div>
+        </div>
+      </div>
+      
+      <div class="container-main">
+          <div class="container-character-image">
+            <img class="character-image" src="" alt="">
+          </div>
+          <div class="container-character-informations">
+              <div class="container-charName-soundButton">
+                <div class="container-sound-button">
+                  <a class="play-volume-button">
+                    <img class="volume-button" src="./images/volume_button.png" alt="volume-button">
+                    <audio id="voice-audio" src=""></audio>
+                  </a>
+                </div>
+                <div class="container-charName">
+                  <span class="charName"></span>
+                </div>
+              </div>
+              <div class="container-char-subtitle">
+                <span class="char-subtitle"></span>
+              </div>
+              <div class="container-char-description">
+                <p class="char-description"></p>
+              </div>
+              <div class="container-buttons">
+                  <a id="left-button">
+                    <div class="arrow arrow-left">
+                      <div class="arrow-top"></div>
+                      <div class="arrow-bottom"></div>
+                    </div>
+                  </a>
+                  <a id="right-button">
+                    <div class="arrow">
+                      <div class="arrow-top"></div>
+                      <div class="arrow-bottom"></div>
+                    </div>
+                  </a>  
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <audio id="background-music" src="./sounds/background_music.mp3" loop></audio>
+      
+    <script src="script.js"></script>
+  </body>
+</html>
